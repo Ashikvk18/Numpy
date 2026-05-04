@@ -18,4 +18,5 @@ print(np.insert(arr_2d, 1, 10))
 
 # Inserting an element at a specific position
 print(np.insert(arr_2d, 1, 10, axis=1)) # axis=1 means column so it will insert 10 in the first column
-print(np.insert(arr_2d, 1, 10, axis=0)) # axis=0 means row so it will insert 10 in the first row
+print(np.insert(arr_2d, 0, 10, axis=0)) # axis=0 means row so it will insert 10 in the first row
+print(np.insert(arr_2d, 0, 10, axis=None)) # axis = none means flattening
