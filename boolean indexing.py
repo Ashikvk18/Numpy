@@ -3,6 +3,5 @@ import numpy as np
 arr = np.array([1, 2, 3, 4, 5])
 print(arr)
 
-# Fancy indexing
-print(arr[[0, 2, 4]])
-
+# Boolean indexing
+print(arr[arr > 3])
